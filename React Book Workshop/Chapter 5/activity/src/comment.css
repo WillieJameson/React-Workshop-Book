@@ -1,0 +1,39 @@
+.CommentContainer{
+  display: flex;
+  border: 1px solid rgb(68, 68, 68);
+  padding: 2em;
+}
+
+.Comment{
+  padding: 10px;
+}
+
+.Comment .Comment{
+  margin-left: 3em;
+}
+
+.image{
+  border-radius: 50%;
+  width: 100px;
+  height: 100%;
+}
+
+.name{
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.time{
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.Comment-Content{
+  padding-left: 1rem;
+}
+
+.button{
+  width: 80px;
+  height: 30%;
+}

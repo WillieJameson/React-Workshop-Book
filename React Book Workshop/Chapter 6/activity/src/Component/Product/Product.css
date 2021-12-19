@@ -1,0 +1,23 @@
+
+.Product{
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.Product h2{
+  margin: 0;
+}
+
+.Product .Header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Product button{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #eee;
+  height: 100%;
+  width: 30px;
+  font-size: 20px;
+}
