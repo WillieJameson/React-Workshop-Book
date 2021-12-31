@@ -24,8 +24,8 @@ class App extends Component{
   displayErrors=()=>{
     return(
       <div className='errors'>
-      {this.state.errors.map((err, i) => (
-        <p key={`err-${i}`}>{err}</p>
+      {this.state.errors.map(
+        (err, i) => (<p key={`err-${i}`}>{err}</p>
       ))}
       </div>
     )
