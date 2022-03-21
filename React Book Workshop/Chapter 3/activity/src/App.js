@@ -13,6 +13,7 @@ class App extends Component{
     }
   }
 
+
   ResetGame= () =>{
     let tile = []
     // ini buat show number 
@@ -47,12 +48,11 @@ class App extends Component{
     });
 
     return(tiles)
-
   }
+
 
   FlipTile = (index) =>{
 
-    
     // make a variable 
     
     let tiles = this.state.tile
@@ -94,6 +94,7 @@ class App extends Component{
 
   }
 
+  
   ReturnCard = (tile,index) =>{
 
 
@@ -113,7 +114,9 @@ class App extends Component{
         {!tile.flipped && tile.number}
       </div>
     )
+  
   }
+
 
 
   render(){
